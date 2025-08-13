@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-jose[cryptography] # Para la autenticación con tokens
+passlib[bcrypt]         # Para hashear contraseñas
